@@ -1,21 +1,19 @@
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <h1>Marcenaria Loreto</h1>
+        <p>Bem-vindo ao site da Marcenaria Loreto. Aqui você acompanha o progresso da sua obra e muito mais!</p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.instagram.com/marcenarialoreto"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Siga-nos no Instagram
         </a>
       </header>
     </div>
